@@ -1,0 +1,12 @@
+## Virtual Env for building AWS scripts
+
+Set up using
+
+    virtualenv awsPython2.7
+    cd awsPython2.7/
+    cd bin
+    source activate
+    pip install boto3==1.5.34
+    pip install boto==2.48.0
+    pip install ansible==2.4.3.0
+    pip install awscli==1.14.44
